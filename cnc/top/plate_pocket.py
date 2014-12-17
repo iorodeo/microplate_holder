@@ -6,7 +6,7 @@ from py2gcode import cnc_dxf
 
 # Assumes stock depth is 0.51"
 
-feedrate = 150.0
+feedrate = 120.0
 fileName = 'top_in.dxf'
 depth = 5.0/25.4  
 startZ = 0.0

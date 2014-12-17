@@ -4,6 +4,8 @@ import sys
 from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
+# Drill Diam 5/32
+
 feedrate = 50.0
 fileName = 'bottom_in.dxf'
 stockThickness = 0.54

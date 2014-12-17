@@ -6,7 +6,7 @@ from py2gcode import cnc_dxf
 
 feedrate = 50.0
 fileName = 'top_in.dxf'
-stockThickness = 0.51
+stockThickness = 0.52
 drillMargin =0.5*0.125
 
 startZ = 0.0
@@ -22,8 +22,9 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 
 param = { 
         'fileName'    : fileName,
-        #'layers'      : ['mount_holes', 'fixturing_holes'],
-        'layers'      : ['mount_holes'],
+        'layers'      : ['mount_holes', 'fixturing_holes'],
+        #'layers'      : ['mount_holes'],
+        #'layers'      : ['fixturing_holes'],
         'dxfTypes'    : ['CIRCLE'],
         'startZ'      : startZ,
         'stopZ'       : stopZ,

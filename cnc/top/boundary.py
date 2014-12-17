@@ -6,7 +6,7 @@ from py2gcode import cnc_dxf
 
 feedrate = 150.0
 fileName = 'top_in.dxf'
-depth = 0.535
+depth = 0.54
 startZ = 0.0
 safeZ = 0.5
 maxCutDepth = 0.05

@@ -9,7 +9,7 @@ G20 (Set units to inches)
 G61 (Exact path mode)
 
 F 150.0
-G64
+G64 p0.02 q0.01
 
 ; Begin LineSegBoundaryXY
 ; ------------------------------------------------------------

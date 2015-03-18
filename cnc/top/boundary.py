@@ -21,7 +21,7 @@ prog.add(gcode_cmd.GenericStart())
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.FeedRate(feedrate))
 
-prog.add(gcode_cmd.PathBlendMode(P=0.01))
+prog.add(gcode_cmd.PathBlendMode(p=0.02, q=0.01))
 
 param = {
         'fileName'    : fileName,

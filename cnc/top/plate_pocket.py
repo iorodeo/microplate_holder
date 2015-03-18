@@ -8,7 +8,8 @@ from py2gcode import cnc_dxf
 
 feedrate = 120.0
 fileName = 'top_in.dxf'
-depth = 5.0/25.4  
+#depth = 5.0/25.4  
+depth = 0.540  
 startZ = 0.0
 safeZ = 0.5
 overlap = 0.5
@@ -30,7 +31,7 @@ param = {
         'layers'         : ['plate_pocket'],
         'components'     : True,
         'depth'          : depth,
-        'thickness'      : pocketThickness,
+        #'thickness'      : pocketThickness,
         'startZ'         : startZ,
         'safeZ'          : safeZ,
         'overlap'        : overlap,

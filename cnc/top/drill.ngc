@@ -12,7 +12,7 @@ F 50.0
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['mount_holes', 'fixturing_holes']
+; layers: ['mount_holes']
 ; startZ: 0.0
 ; startCond: minX
 ; stopZ: -0.5825
@@ -46,7 +46,7 @@ G0 Z0.30000000
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['mount_holes', 'fixturing_holes']
+; layers: ['mount_holes']
 ; startZ: 0.0
 ; startCond: minX
 ; stopZ: -0.5825
@@ -80,7 +80,7 @@ G0 Z0.30000000
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['mount_holes', 'fixturing_holes']
+; layers: ['mount_holes']
 ; startZ: 0.0
 ; startCond: minX
 ; stopZ: -0.5825
@@ -114,7 +114,7 @@ G0 Z0.30000000
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['mount_holes', 'fixturing_holes']
+; layers: ['mount_holes']
 ; startZ: 0.0
 ; startCond: minX
 ; stopZ: -0.5825
@@ -138,142 +138,6 @@ G4 P0.5
 ; PeckDrill: move to start z
 G1 Z0.00000000
 G83 X5.70866141732 Y4.92125984252 Z-0.5825 R0.0 Q0.05
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; End PeckDrill
-; ------------------------------------------------------------
-
-
-; Begin PeckDrill
-; ------------------------------------------------------------
-; layers: ['mount_holes', 'fixturing_holes']
-; startZ: 0.0
-; startCond: minX
-; stopZ: -0.5825
-; startDwell: 0.5
-; fileName: top_in.dxf
-; safeZ: 0.3
-; dxfTypes: ['CIRCLE']
-; centerX: 1.57480314961
-; centerY: 3.54330708661
-; stepZ: 0.05
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; PeckDrill: rapid move to drill x,y
-G0 X1.57480315 Y3.54330709
-
-; PeckDrill: dwell
-G4 P0.5
-
-; PeckDrill: move to start z
-G1 Z0.00000000
-G83 X1.57480314961 Y3.54330708661 Z-0.5825 R0.0 Q0.05
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; End PeckDrill
-; ------------------------------------------------------------
-
-
-; Begin PeckDrill
-; ------------------------------------------------------------
-; layers: ['mount_holes', 'fixturing_holes']
-; startZ: 0.0
-; startCond: minX
-; stopZ: -0.5825
-; startDwell: 0.5
-; fileName: top_in.dxf
-; safeZ: 0.3
-; dxfTypes: ['CIRCLE']
-; centerX: 1.57480314961
-; centerY: 2.36220472441
-; stepZ: 0.05
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; PeckDrill: rapid move to drill x,y
-G0 X1.57480315 Y2.36220472
-
-; PeckDrill: dwell
-G4 P0.5
-
-; PeckDrill: move to start z
-G1 Z0.00000000
-G83 X1.57480314961 Y2.36220472441 Z-0.5825 R0.0 Q0.05
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; End PeckDrill
-; ------------------------------------------------------------
-
-
-; Begin PeckDrill
-; ------------------------------------------------------------
-; layers: ['mount_holes', 'fixturing_holes']
-; startZ: 0.0
-; startCond: minX
-; stopZ: -0.5825
-; startDwell: 0.5
-; fileName: top_in.dxf
-; safeZ: 0.3
-; dxfTypes: ['CIRCLE']
-; centerX: 4.33070866142
-; centerY: 3.54330708661
-; stepZ: 0.05
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; PeckDrill: rapid move to drill x,y
-G0 X4.33070866 Y3.54330709
-
-; PeckDrill: dwell
-G4 P0.5
-
-; PeckDrill: move to start z
-G1 Z0.00000000
-G83 X4.33070866142 Y3.54330708661 Z-0.5825 R0.0 Q0.05
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; End PeckDrill
-; ------------------------------------------------------------
-
-
-; Begin PeckDrill
-; ------------------------------------------------------------
-; layers: ['mount_holes', 'fixturing_holes']
-; startZ: 0.0
-; startCond: minX
-; stopZ: -0.5825
-; startDwell: 0.5
-; fileName: top_in.dxf
-; safeZ: 0.3
-; dxfTypes: ['CIRCLE']
-; centerX: 4.33070866142
-; centerY: 2.36220472441
-; stepZ: 0.05
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; PeckDrill: rapid move to drill x,y
-G0 X4.33070866 Y2.36220472
-
-; PeckDrill: dwell
-G4 P0.5
-
-; PeckDrill: move to start z
-G1 Z0.00000000
-G83 X4.33070866142 Y2.36220472441 Z-0.5825 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000

@@ -22,8 +22,8 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 
 param = { 
         'fileName'    : fileName,
-        'layers'      : ['mount_holes', 'fixturing_holes'],
-        #'layers'      : ['mount_holes'],
+        #'layers'      : ['mount_holes', 'fixturing_holes'],
+        'layers'      : ['mount_holes'],
         #'layers'      : ['fixturing_holes'],
         'dxfTypes'    : ['CIRCLE'],
         'startZ'      : startZ,
